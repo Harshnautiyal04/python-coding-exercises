@@ -23,3 +23,4 @@ for i in range(num ):
 for i in lst:
     if (i.endswith('f')):
         print(i)
+
