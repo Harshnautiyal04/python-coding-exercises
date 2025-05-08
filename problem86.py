@@ -2,11 +2,9 @@
 
 # sent = input("Enter a sentence : ")
 
-# if len(sent)<10:
-#     print("The maximum length of the sentence is only 10.")
-# else:
-#     print(sent[slice(0,11)])
-     
+#output= sent[:10]
+
+#print("The first 10 character is",output)
 
 # write a python program to get a sentence from user the system should display all character except only last ten character maximum
 
