@@ -10,7 +10,7 @@
 # t = float(input("Enter time (in s): "))
 
 # if t == 0:
-#     print("Print time cannot be zero.")
+#     print(Time cannot be zero.")
 # else:
 #     acceleration = (u-v)/t
 #     print(f"The Acceleration is {acceleration} m/s².")
@@ -23,12 +23,12 @@ u = float(input("Initial velocity (in m/s): "))
 
 v= float(input("Final velocity (in m/s): "))
 
-a = float(input("Enter time (in m/s²): "))
+a = float(input("Enter acceleration (in m/s²): "))
 
 dv = u-v
 
 if a == 0:
-    print("Print time cannot be zero.")
+    print("Acceleration cannot be zero.")
 else:
     t= dv/a
-    print(f"The Acceleration is {t} s.")
+    print(f"The time is {t} s.")
